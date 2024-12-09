@@ -47,19 +47,29 @@ const part2 = (rawInput) => {
 run({
   part1: {
     tests: [
-      // {
-      //   input: ``,
-      //   expected: "",
-      // },
+      {
+        input: `3   4
+        4   3
+        2   5
+        1   3
+        3   9
+        3   3`,
+        expected: 11,
+      },
     ],
     solution: part1,
   },
   part2: {
     tests: [
-      // {
-      //   input: ``,
-      //   expected: "",
-      // },
+      {
+        input: `3   4
+        4   3
+        2   5
+        1   3
+        3   9
+        3   3`,
+        expected: 31,
+      },
     ],
     solution: part2,
   },
